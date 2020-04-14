@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Logo from "../../assets/coverwrrc.jpeg";
+import Player from "../player";
 
 class Overlay extends Component {
     render() {
@@ -13,7 +14,7 @@ class Overlay extends Component {
                             <p className="mb-4"><span className="small">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
                             </p>
 
-                            <div id="playerContainer"/>
+                            <Player />
 
                         </div>
                     </div>
