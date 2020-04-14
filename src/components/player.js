@@ -6,7 +6,7 @@ class Player extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            toPlay: "http://radioregionecampania.it:8000/home?type=.mp3",
+            toPlay: "http://localhost:8000/home?type=.mp3",
             live: true
         }
     }
@@ -26,6 +26,8 @@ class Player extends Component {
                     autoPlay={true}
                     loop={true}
                     src={this.state.toPlay}
+                    showSkipControls={false}
+                    showJumpControls={false}
                     onPlay={() => console.log("onPlay")}
                     onError={() => this.switchToPlay()}
                     onEnded={() => {if (!this.state.live) {
