@@ -6,7 +6,7 @@ class Player extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            toPlay: "http://localhost:8000/home?type=.mp3",
+            toPlay: "http://radioregionecampania.it:8000/home?type=.mp3",
             live: true
         }
     }
