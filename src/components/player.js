@@ -19,11 +19,12 @@ class Player extends Component {
         })
     }
 
+
     render() {
         return (
             <div>
                 <AudioPlayer
-                    autoPlay={true}
+                    autoPlay={false}
                     loop={true}
                     src={this.state.toPlay}
                     showSkipControls={false}
