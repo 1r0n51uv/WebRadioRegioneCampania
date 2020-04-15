@@ -3,6 +3,9 @@ import img1 from "../assets/img_1.jpg";
 import img2 from "../assets/img_2.jpg";
 import img3 from "../assets/img_3.jpg";
 import img4 from "../assets/img_4.jpg";
+import Post from "../components/home/post";
+import {FirestoreCollection} from "react-firestore";
+
 
 class Blog extends Component {
     render() {
@@ -21,44 +24,27 @@ class Blog extends Component {
                         </div>
 
                         <div className="row no-gutters">
-                            <div className="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
-                                <a href="#" className="unit-9">
-                                    <div className="image" style={{backgroundImage: `url(${img1})`}}/>
-                                    <div className="unit-9-content">
-                                        <h2>Art Gossip</h2>
-                                        <span>Friday 1:00pm &mdash; 2:30pm</span>
-                                    </div>
-                                </a>
-                            </div>
+                            <FirestoreCollection
+                                path="blog"
+                                sort="Date:desc"
+                                render={({ isLoading, data }) => {
+                                    return isLoading ? (
+                                        <h1>loading</h1>
+                                    ) : (
+                                        data.map(post => (
 
-                            <div className="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
-                                <a href="#" className="unit-9">
-                                    <div className="image" style={{backgroundImage: `url(${img2})`}}/>
-                                    <div className="unit-9-content">
-                                        <h2>Good Morning Show</h2>
-                                        <span>Friday 1:00pm &mdash; 2:30pm</span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div className="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
-                                <a href="#" className="unit-9">
-                                    <div className="image" style={{backgroundImage: `url(${img3})`}}/>
-                                    <div className="unit-9-content">
-                                        <h2>Blues Radio</h2>
-                                        <span>Friday 1:00pm &mdash; 2:30pm</span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div className="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
-                                <a href="#" className="unit-9">
-                                    <div className="image" style={{backgroundImage: `url(${img4})`}}/>
-                                    <div className="unit-9-content">
-                                        <h2>Classic Songs</h2>
-                                        <span>Friday 1:00pm &mdash; 2:30pm</span>
-                                    </div>
-                                </a>
-                            </div>
+                                            <Post key={post.id}
+                                                  title={post.Title}
+                                                  date={post.Date}
+                                                  img={img2}
+                                            />
+                                        ))
+
+                                    );
+                                }}
+                            />
                         </div>
+
                     </div>
                 </div>
 

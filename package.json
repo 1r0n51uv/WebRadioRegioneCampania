@@ -6,12 +6,20 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "dotenv": "^8.2.0",
+    "firebase": "^7.14.0",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.28",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-firebase-file-uploader": "^2.4.3",
+    "react-firestore": "^1.0.1",
     "react-h5-audio-player": "^3.0.4",
     "react-howler": "^3.7.4",
+    "react-moment": "^0.9.7",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "react-timestamp": "^5.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
