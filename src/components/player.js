@@ -14,7 +14,7 @@ class Player extends Component {
 
     switchToPlay = () => {
         this.setState({
-            toPlay: "https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_5MG.mp3",
+            toPlay: "https://firebasestorage.googleapis.com/v0/b/webradioregionecampania.appspot.com/o/file_example_MP3_5MG.mp3?alt=media&token=d4847d5d-d698-4ba4-acd9-e758015a0c0c",
             live: false
         })
     }
@@ -37,6 +37,7 @@ class Player extends Component {
 
                     // other props here
                 />
+
             </div>
         );
     }

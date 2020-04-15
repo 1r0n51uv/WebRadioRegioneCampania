@@ -33,6 +33,8 @@ class Blog extends Component {
                                     ) : (
                                         data.map(post => (
 
+                                            post.Visible &&
+
                                             <Post key={post.id}
                                                   title={post.Title}
                                                   date={post.Date.toDate()}
