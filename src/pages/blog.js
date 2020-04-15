@@ -35,7 +35,7 @@ class Blog extends Component {
 
                                             <Post key={post.id}
                                                   title={post.Title}
-                                                  date={post.Date}
+                                                  date={post.Date.toDate()}
                                                   img={img2}
                                             />
                                         ))

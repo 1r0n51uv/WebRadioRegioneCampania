@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import img2 from "../../assets/img_2.jpg";
 import Moment from 'react-moment';
 import 'moment-timezone';
+import {onLog} from "firebase";
 
 
 class Post extends Component {
@@ -15,7 +15,13 @@ class Post extends Component {
                     <div className="image" style={{backgroundImage: `url(${this.props.img})`}}/>
                     <div className="unit-9-content">
                         <h2>{this.props.title}</h2>
-                        <span><Moment format="GG MMM YYYY">{this.props.date.toDate()}</Moment></span>
+                        {
+                            this.props.date !== null &&
+
+                            <span><Moment format="DD MMM YYYY">{this.props.date}</Moment></span>
+                        }
+
+
                     </div>
                 </a>
             </div>
