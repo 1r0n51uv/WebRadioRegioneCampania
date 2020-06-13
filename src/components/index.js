@@ -1,15 +1,14 @@
 import React, {Component} from 'react';
-import Overlay from "../components/Overlay";
+import Home from "../pages/Home";
 
-
-class Home extends Component {
+class Index extends Component {
     render() {
         return (
             <div>
-                <Overlay />
+                <Home />
             </div>
         );
     }
 }
 
-export default Home;
+export default Index;
