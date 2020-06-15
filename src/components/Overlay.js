@@ -6,6 +6,8 @@ import { RiVoiceprintLine, RiMusic2Line } from "react-icons/ri";
 import BannerCarousel from "./ui/bannerCarousel";
 import FbPage from "./fbPage";
 import FbComments from "./fbComments";
+import Ticker from 'react-ticker'
+
 var Blur = require('react-blur').default;
 
 
@@ -35,6 +37,8 @@ class Overlay extends React.PureComponent {
                                         Ascoltare cose belle insegna a pensare ed agire.</span>
                                     </p>
 
+
+
                                     <AudioPlayer
                                         autoPlay={false}
                                         loop={true}
@@ -45,6 +49,9 @@ class Overlay extends React.PureComponent {
                                         showFilledProgress={false}
                                         onError={e => console.log(e)}
                                     />
+
+
+
 
 
                                 </div>
@@ -101,5 +108,7 @@ class Overlay extends React.PureComponent {
         );
     }
 }
-
 export default Overlay;
+
+
+
