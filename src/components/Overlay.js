@@ -7,6 +7,7 @@ import BannerCarousel from "./ui/bannerCarousel";
 import FbPage from "./fbPage";
 import FbComments from "./fbComments";
 import Ticker from 'react-ticker'
+import Palinsesto from "./Palinsesto";
 
 var Blur = require('react-blur').default;
 
@@ -64,9 +65,6 @@ class Overlay extends React.PureComponent {
                     </div>
                 </Blur>
 
-
-
-
                 <div className="bg-primary" data-aos="fade">
                     <div className="container">
                         <div className="row justify-content-center">
@@ -102,6 +100,8 @@ class Overlay extends React.PureComponent {
                         </div>
                     </div>
                 </div>
+
+                <Palinsesto />
 
             </div>
 
