@@ -8,7 +8,7 @@ class Dom extends Component {
 
                     <div className="col2">
                         <a href="#" className="col1-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100">
-                            <div className="image" style={{backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/webradioregionecampania.appspot.com/o/palinsesto%2FSchermata%202020-09-29%20alle%2021.22.13.png?alt=media&token=c8126920-1586-4f5c-ac56-bf5cd5125ba4)`}}/>
+                            <div className="image" style={{backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/webradioregionecampania.appspot.com/o/palinsesto%2FWhatsApp%20Image%202020-09-30%20at%2011.03.29.jpeg?alt=media&token=be2f8c45-e0fc-4de8-a1ab-279e1a90ce4f)`}}/>
                             <div className="unit-9-content">
                                 <h2>RockWave</h2>
                                 <span>Domenica 10:00 &mdash; 12:30</span>
@@ -30,7 +30,7 @@ class Dom extends Component {
                     <div className="col2">
 
                         <a href="#" className="col1-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100">
-                            <div className="image" style={{backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/webradioregionecampania.appspot.com/o/palinsesto%2FSchermata%202020-09-29%20alle%2021.22.13.png?alt=media&token=c8126920-1586-4f5c-ac56-bf5cd5125ba4)`}}/>
+                            <div className="image" style={{backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/webradioregionecampania.appspot.com/o/palinsesto%2FWhatsApp%20Image%202020-09-30%20at%2011.03.29.jpeg?alt=media&token=be2f8c45-e0fc-4de8-a1ab-279e1a90ce4f)`}}/>
                             <div className="unit-9-content">
                                 <h2>RockWave</h2>
                                 <span>Domenica 16:00 &mdash; 17:00</span>
