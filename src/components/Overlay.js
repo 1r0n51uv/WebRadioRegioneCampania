@@ -71,6 +71,8 @@ class Overlay extends React.PureComponent {
                             <h3 className="text-center text-white"></h3>
                             <a href="https://www.facebook.com/Web-Radio-Regione-Campania-103449527993974/" className="col-2 text-center py-4 social-icon d-block text-white"><span
                                 className="icon-facebook text-white"/></a>
+                            <a href="https://www.instagram.com/web_radio_regione_campania/" className="col-2 text-center py-4 social-icon d-block text-white"><span
+                                className="icon-instagram text-white"/></a>
                         </div>
                     </div>
                 </div>
