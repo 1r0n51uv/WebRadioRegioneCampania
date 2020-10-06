@@ -16,7 +16,6 @@ class BannerCarousel extends Component {
                     <img onClick={() => window.open('https://www.facebook.com/Studio-Odontoiatrico-Castaldo-1505004786417059') } className="img-fluid" src={img1} />
                     <img onClick={() => window.open('https://www.facebook.com/Streetdance-FSV-394427487946405')} className="img-fluid" src={img2} />
                     <img onClick={() => window.open('https://www.ldgservice.it')} className="img-fluid" src={img3} />
-                    <img onClick={() => window.open('https://www.facebook.com/daNanduccio')} className="img-fluid" src={img4} />
 
                 </Carousel>
 
