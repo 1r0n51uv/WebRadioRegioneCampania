@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import pic from './pics.json';
 
 class Sab extends Component {
     render() {
@@ -7,24 +8,33 @@ class Sab extends Component {
                 <div className="site-block-retro d-block d-md-flex">
 
                     <div className="col2">
-                        <a href="#" className="col1-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100">
-                            <div className="image" ></div>
+
+                        <a href="#" className="col1-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100" style={{marginTop: '8%'}}>
+                            <div className="image" style={{backgroundImage: `url(${pic.ruota})`}}/>
+                            <div className="unit-9-content">
+                                <h2>A ruota libera</h2>
+                                <span>Sabato 8:00 &mdash; 8:55</span>
+                            </div>
+                        </a>
+
+                        <a href="#" className="col1-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100" style={{marginTop: '8%'}}>
+                            <div className="image" style={{backgroundImage: `url(${pic.groov})`}}/>
                             <div className="unit-9-content">
                                 <h2>Grooviera</h2>
                                 <span>Sabato 10:00 &mdash; 11:00</span>
                             </div>
                         </a>
 
-                        <a href="#" className="col1-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100">
-                            <div className="image" ></div>
+                        <a href="#" className="col1-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100" style={{marginTop: '8%'}}>
+                            <div className="image" style={{backgroundImage: `url(${pic.italy})`}}/>
                             <div className="unit-9-content">
                                 <h2>Classifica TOP 20 Italia </h2>
                                 <span>Sabato 12:30 &mdash; 16:00</span>
                             </div>
                         </a>
 
-                        <a href="#" className="col1-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100">
-                            <div className="image" ></div>
+                        <a href="#" className="col1-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100" style={{marginTop: '8%'}}>
+                            <div className="image" style={{backgroundImage: `url(${pic.groov})`}}/>
                             <div className="unit-9-content">
                                 <h2>Grooviera</h2>
                                 <span>Sabato 16:00 &mdash; 17:00</span>
@@ -35,21 +45,14 @@ class Sab extends Component {
 
                     <div className="col2">
 
-                        <a href="#" className="col1-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100">
-                            <div className="image" ></div>
+                        <a href="#" className="col1-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100" style={{marginTop: '8%'}}>
+                            <div className="image" style={{backgroundImage: `url(${pic.energy})`}}/>
                             <div className="unit-9-content">
                                 <h2>Special Energy</h2>
-                                <span>Sabato 20:00 &mdash; 22:00</span>
+                                <span>Sabato 20:00 &mdash; 21:00</span>
                             </div>
                         </a>
 
-                        <a href="#" className="col1-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100">
-                            <div className="image" ></div>
-                            <div className="unit-9-content">
-                                <h2>La Fiesta</h2>
-                                <span>Sabato 22:00 &mdash; 00:00</span>
-                            </div>
-                        </a>
 
                     </div>
 

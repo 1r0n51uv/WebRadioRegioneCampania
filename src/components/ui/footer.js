@@ -26,6 +26,9 @@ class Footer extends Component {
                                     <div>
                                         <a href="https://www.facebook.com/Web-Radio-Regione-Campania-103449527993974/"
                                            className="pl-0 pr-3"><span className="icon-facebook"></span></a>
+
+                                        <a href="https://www.instagram.com/web_radio_regione_campania/"
+                                           className="pl-0 pr-3"><span className="icon-instagram"></span></a>
                                     </div>
                                 </div>
                             </div>
