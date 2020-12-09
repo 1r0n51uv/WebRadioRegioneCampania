@@ -16,7 +16,7 @@ class Overlay extends React.PureComponent {
     constructor(props) {
         super(props);
         this.state = {
-            src: "https://sr11.inmystream.it:8067/stream",
+            src: "https://188.165.236.130/proxy/eduardo?mp=/stream",
             live: true,
             image: Logo,
             title: "On-Air Now"
