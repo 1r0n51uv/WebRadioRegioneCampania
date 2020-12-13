@@ -68,6 +68,14 @@ class Mar extends Component {
                         </a>
 
                         <a href="#" className="col1-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100" style={{marginTop: '8%'}}>
+                            <div className="image" style={{backgroundImage: `url(${pic.spazio})`}}/>
+                            <div className="unit-9-content">
+                                <h2>Spazio Libero</h2>
+                                <span>Martedì 19:30 &mdash; 21:00</span>
+                            </div>
+                        </a>
+
+                        <a href="#" className="col1-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100" style={{marginTop: '8%'}}>
                             <div className="image" style={{backgroundImage: `url(${pic.classic})`}}/>
                             <div className="unit-9-content">
                                 <h2>Musica Classica</h2>

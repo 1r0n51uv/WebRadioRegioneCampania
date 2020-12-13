@@ -33,6 +33,12 @@ class Sab extends Component {
                             </div>
                         </a>
 
+
+
+                    </div>
+
+                    <div className="col2">
+
                         <a href="#" className="col1-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100" style={{marginTop: '8%'}}>
                             <div className="image" style={{backgroundImage: `url(${pic.groov})`}}/>
                             <div className="unit-9-content">
@@ -40,10 +46,6 @@ class Sab extends Component {
                                 <span>Sabato 16:00 &mdash; 17:00</span>
                             </div>
                         </a>
-
-                    </div>
-
-                    <div className="col2">
 
                         <a href="#" className="col1-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100" style={{marginTop: '8%'}}>
                             <div className="image" style={{backgroundImage: `url(${pic.energy})`}}/>

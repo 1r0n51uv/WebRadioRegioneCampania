@@ -26,13 +26,7 @@ class Lun extends Component {
                             </div>
                         </a>
 
-                        <a href="#" className="col1-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100" style={{marginTop: '8%'}}>
-                            <div className="image" style={{backgroundImage: `url(${pic.frutti})` }}/>
-                            <div className="unit-9-content">
-                                <h2>Tutti i Frutti </h2>
-                                <span>Lunedì 9:00 &mdash; 10:00</span>
-                            </div>
-                        </a>
+
 
                         <a href="#" className="col1-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100" style={{marginTop: '8%'}} style={{marginTop: '8%'}}>
                             <div className="image" style={{backgroundImage: `url(${pic.gigi})`}}/>
@@ -82,13 +76,15 @@ class Lun extends Component {
                                 <span>Lunedì 17:30 &mdash; 19:30</span>
                             </div>
                         </a>
+
                         <a href="#" className="col1-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100" style={{marginTop: '8%'}}>
-                            <div className="image" style={{backgroundImage: `url(${pic.frutti})`}}/>
+                            <div className="image" style={{backgroundImage: `url(${pic.spazio})`}}/>
                             <div className="unit-9-content">
-                                <h2>Tutti i Frutti</h2>
-                                <span>Lunedì 21:00 &mdash; 22:00</span>
+                                <h2>Spazio Libero</h2>
+                                <span>Lunedì 19:30 &mdash; 21:00</span>
                             </div>
                         </a>
+
                         <a href="#" className="col1-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100" style={{marginTop: '8%'}}>
                             <div className="image" style={{backgroundImage: `url(${pic.jazz})`}}/>
                             <div className="unit-9-content">
