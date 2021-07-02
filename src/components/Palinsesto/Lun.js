@@ -22,7 +22,7 @@ class Lun extends Component {
                             <div className="image" style={{backgroundImage: `url(${pic.ruota})`}}/>
                             <div className="unit-9-content">
                                 <h2>A ruota libera</h2>
-                                <span>Lunedì 8:00 &mdash; 8:55</span>
+                                <span>Lunedì 8:00 &mdash; 9:30</span>
                             </div>
                         </a>
 
@@ -36,37 +36,39 @@ class Lun extends Component {
                             </div>
                         </a>
                         <a href="#" className="col1-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100" style={{marginTop: '8%'}}>
-                            <div className="image" style={{backgroundImage: `url(${pic.spazi})`}}/>
+                            <div className="image" />
                             <div className="unit-9-content">
-                                <h2>Spazi</h2>
-                                <span>Lunedì 12:00 &mdash; 12:10</span>
+                                <h2>Alman</h2>
+                                <span>Lunedì 12:00 &mdash; 12:30</span>
                             </div>
                         </a>
                         <a href="#" className="col1-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100" style={{marginTop: '8%'}}>
                             <div className="image" style={{backgroundImage: `url(${pic.yesno})`}}/>
                             <div className="unit-9-content">
                                 <h2>Italia si, Italia no</h2>
-                                <span>Lunedì 12:30 &mdash; 14:30</span>
+                                <span>Lunedì 12:30 &mdash; 14:00</span>
                             </div>
                         </a>
-                        <a href="#" className="col1-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100" style={{marginTop: '8%'}}>
-                            <div className="image" style={{backgroundImage: `url(${pic.gigi})`}}/>
-                            <div className="unit-9-content">
-                                <h2>Gigi Show </h2>
-                                <span>Lunedì 16:00 &mdash; 17:00</span>
-                            </div>
-                        </a>
+
 
 
 
                     </div>
+
+                    <a href="#" className="col1-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100" style={{marginTop: '8%'}}>
+                        <div className="image" />
+                        <div className="unit-9-content">
+                            <h2>Two Five </h2>
+                            <span>Lunedì 14:30 &mdash; 16:00</span>
+                        </div>
+                    </a>
 
                     <div className="col2">
                         <a href="#" className="col1-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100" style={{marginTop: '8%'}}>
                             <div className="image" style={{backgroundImage: `url(${pic.wawa})`}}/>
                             <div className="unit-9-content">
                                 <h2>WAWAWIWOWA</h2>
-                                <span>Lunedì 17:00 &mdash; 17:30</span>
+                                <span>Lunedì 16:00 &mdash; 17:00</span>
                             </div>
                         </a>
                         <a href="#" className="col1-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100" style={{marginTop: '8%'}}>
@@ -85,28 +87,6 @@ class Lun extends Component {
                             </div>
                         </a>
 
-                        <a href="#" className="col1-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100" style={{marginTop: '8%'}}>
-                            <div className="image" style={{backgroundImage: `url(${pic.jazz})`}}/>
-                            <div className="unit-9-content">
-                                <h2>Jazz in time</h2>
-                                <span>Lunedì 22:00 &mdash; 00:00</span>
-                            </div>
-                        </a>
-                        <a href="#" className="col1-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100" style={{marginTop: '8%'}}>
-                            <div className="image" style={{backgroundImage: `url(${pic.spazi})`}}/>
-                            <div className="unit-9-content">
-                                <h2>Spazi</h2>
-                                <span>Lunedì 00:00 &mdash; 00:30</span>
-                            </div>
-                        </a>
-
-                        <a href="#" className="col1-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100" style={{marginTop: '8%'}}>
-                            <div className="image" style={{backgroundImage: `url(${pic.yesno})`}}/>
-                            <div className="unit-9-content">
-                                <h2>Italia si, Italia no</h2>
-                                <span>Lunedì 00:30 &mdash; 02:30</span>
-                            </div>
-                        </a>
                         <a href="#" className="col1-row1 unit-9 no-height" data-aos="fade-up" data-aos-delay="100" style={{marginTop: '8%'}}>
                             <div className="image" style={{backgroundImage: `url(${pic.maipresto})`}}/>
                             <div className="unit-9-content">
